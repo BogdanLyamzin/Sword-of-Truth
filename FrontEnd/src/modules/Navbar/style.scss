@@ -1,0 +1,9 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  &-item {
+    padding: 15px 20px;
+    border: 1px solid black;
+  }
+}
