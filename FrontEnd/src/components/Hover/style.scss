@@ -1,0 +1,13 @@
+.hover {
+    position: relative;
+  &:hover &__hover{
+    opacity: 1;
+  }
+  &__hover {
+    position: absolute;
+    opacity: 0;
+  }
+  &__no-hover {
+    opacity: 1;
+  }
+};
